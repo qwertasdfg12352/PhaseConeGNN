@@ -1,0 +1,31 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Training outputs
+ft_saved/
+results/
+*.pth
+*.pt
+*.ckpt
+
+# Local generated datasets and large generated artifacts
+AIGDataset/
+datasets/
+*.npz
+*.csv
+data/md_aig/
+data/md_aig.tar.gz
+!data/demo_AIGDataset/
+!data/demo_AIGDataset/**
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db

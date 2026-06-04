@@ -1,0 +1,13 @@
+name: phaseconegnn
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - numpy
+  - tqdm
+  - pip
+  # Optional: required only when running with --feature_type spectral.
+  - scipy
+  - scikit-learn
